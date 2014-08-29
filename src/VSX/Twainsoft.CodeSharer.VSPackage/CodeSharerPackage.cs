@@ -1,15 +1,14 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
-using System.ComponentModel.Design;
-using Microsoft.Win32;
-using Microsoft.VisualStudio;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell.Interop;
+using Twainsoft.CodeSharer.VSPackage.GUI;
+using Twainsoft.Twainsoft_CodeSharer_VSX;
 
-namespace Twainsoft.Twainsoft_CodeSharer_VSX
+namespace Twainsoft.CodeSharer.VSPackage
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -32,7 +31,7 @@ namespace Twainsoft.Twainsoft_CodeSharer_VSX
     // This attribute registers a tool window exposed by this package.
     [ProvideToolWindow(typeof(MyToolWindow))]
     [Guid(GuidList.guidTwainsoft_CodeSharer_VSXPkgString)]
-    public sealed class Twainsoft_CodeSharer_VSXPackage : Package
+    public sealed class CodeSharerPackage : Package
     {
         /// <summary>
         /// Default constructor of the package.
@@ -41,7 +40,7 @@ namespace Twainsoft.Twainsoft_CodeSharer_VSX
         /// not sited yet inside Visual Studio environment. The place to do all the other 
         /// initialization is the Initialize method.
         /// </summary>
-        public Twainsoft_CodeSharer_VSXPackage()
+        public CodeSharerPackage()
         {
             Debug.WriteLine(string.Format(CultureInfo.CurrentCulture, "Entering constructor for: {0}", this.ToString()));
         }
