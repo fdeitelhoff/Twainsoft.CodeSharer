@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Twainsoft.CodeSharer.GitHub.Gists")]
+[assembly: AssemblyTitle("Twainsoft.CodeSharer.GitHub")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Twainsoft.CodeSharer.GitHub.Gists")]
+[assembly: AssemblyProduct("Twainsoft.CodeSharer.GitHub")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("51c1510d-b538-4755-ad22-dc4aaffc46e3")]
+[assembly: Guid("5f4e8301-b09c-4345-9fff-001cf7f71282")]
 
 // Version information for an assembly consists of the following four values:
 //
