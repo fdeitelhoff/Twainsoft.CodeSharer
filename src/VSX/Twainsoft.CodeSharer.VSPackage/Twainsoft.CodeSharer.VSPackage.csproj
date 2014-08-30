@@ -126,10 +126,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\MyControl.xaml.cs">
-      <DependentUpon>MyControl.xaml</DependentUpon>
+    <Compile Include="GUI\SharedListingsToolWindowView.xaml.cs">
+      <DependentUpon>SharedListingsToolWindowView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GUI\MyToolWindow.cs" />
+    <Compile Include="GUI\SharedListingsToolWindow.cs" />
     <Compile Include="Guids.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -169,7 +169,7 @@
     <Content Include="Resources\Package.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="GUI\MyControl.xaml">
+    <Page Include="GUI\SharedListingsToolWindowView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
