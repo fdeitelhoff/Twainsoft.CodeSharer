@@ -1,8 +1,9 @@
 ﻿// Guids.cs
 // MUST match guids.h
+
 using System;
 
-namespace Twainsoft.Twainsoft_CodeSharer_VSX
+namespace Twainsoft.CodeSharer.VSPackage
 {
     static class GuidList
     {

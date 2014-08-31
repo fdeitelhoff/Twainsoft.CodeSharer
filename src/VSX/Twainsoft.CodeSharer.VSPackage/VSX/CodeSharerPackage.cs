@@ -7,9 +7,8 @@ using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Twainsoft.CodeSharer.VSPackage.GUI;
-using Twainsoft.Twainsoft_CodeSharer_VSX;
 
-namespace Twainsoft.CodeSharer.VSPackage
+namespace Twainsoft.CodeSharer.VSPackage.VSX
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.

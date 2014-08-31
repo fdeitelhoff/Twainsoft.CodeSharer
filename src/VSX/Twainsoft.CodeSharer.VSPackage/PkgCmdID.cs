@@ -1,7 +1,7 @@
 ﻿// PkgCmdID.cs
 // MUST match PkgCmdID.h
 
-namespace Twainsoft.Twainsoft_CodeSharer_VSX
+namespace Twainsoft.CodeSharer.VSPackage
 {
     static class PkgCmdIDList
     {
